@@ -21,8 +21,8 @@ public class ConverterPlugin {
 
     @UITopiaVariant(
             affiliation = "University of Tartu",
-            author = "Name Surname",
-            email = "name.surname@ut.ee"
+            author = "Taavi Ilp & Stepan Bolotnikov",
+            email = "taaviilp@ut.ee & STEPANPUTYOUREMAILHERE"
     )
     @PluginVariant(variantLabel = "Convert BPMN into PN", requiredParameterLabels = {0})
     public static Petrinet optimizeDiagram(UIPluginContext context, BPMNDiagram diagram) {
